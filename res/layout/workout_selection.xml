@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/prev_force"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev Force" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        />
+
+    <TextView
+        android:id="@+id/x_axis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X-Acceleration" />
+
+    <TextView
+        android:id="@+id/avg_accel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Acceleration" />
+    
+    <TextView
+        android:id="@+id/force"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Force" />
+   
+</LinearLayout>
+    
+
